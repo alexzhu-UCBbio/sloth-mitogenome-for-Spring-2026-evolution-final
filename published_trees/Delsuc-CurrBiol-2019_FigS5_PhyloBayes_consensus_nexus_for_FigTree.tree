@@ -1,0 +1,142 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=40;
+	taxlabels
+	Acratocnus_ye_Lib58
+	Bradypus_pygmaeus_NC_028554
+	Bradypus_torquatus_NC_028555
+	Bradypus_tridactylus_NC_037527
+	Bradypus_variegatus_NC_028501
+	Cabassous_centralis_NC_028556
+	Cabassous_chacoensis_NC_028557
+	Cabassous_tatouay_NC_028558
+	Cabassous_unicinctus_NC_028559
+	Calyptophractus_retusus_NC_028560
+	Chaetophractus_vellerosus_NC_028561
+	Chaetophractus_villosus_NC_028562
+	Chlamyphorus_truncatus_NC_028563
+	Choloepus_didactylus_NC_006924
+	Choloepus_hoffmanni_NC_027964
+	Cyclopes_didactylus_NC_028564
+	Dasypus_kappleri_NC_028566
+	Dasypus_novemcinctus_NC_001821
+	Doedicurus_sp_FD2016a_KU517659
+	Dugong_dugon_NC_003314
+	Euphractus_sexcinctus_NC_028571
+	Loxodonta_africana_NC_000934
+	Megalonyx_jeffersonii_Lib69
+	Megatherium_americanum_LibX18
+	Megatherium_americanum_LibX23
+	Megatherium_americanum_Lib_X25
+	Megatherium_americanum_Lib1043
+	Mylodon_darwinii_Lib67
+	Mylodon_darwinii_NC_037941
+	Mylodon_listai_Lib16
+	Myrmecophaga_tridactyla_NC_028572
+	Nothrotheriops_shastensis_LibX32
+	Orycteropus_afer_NC_002078
+	Parocnus_serus_Lib54
+	Priodontes_maximus_NC_028573
+	Tamandua_mexicana_NC_028574
+	Tamandua_tetradactyla_NC_004032
+	Tolypeutes_matacus_NC_028575
+	Tolypeutes_tricinctus_NC_028576
+	Zaedyus_pichiy_NC_028577
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Acratocnus_ye_Lib58:0.203897,Parocnus_serus_Lib54:0.188731,(((Mylodon_listai_Lib16:6.0E-5,Mylodon_darwinii_NC_037941:6.1E-5,Mylodon_darwinii_Lib67:6.1E-5)[&label=1]:0.14117,(Choloepus_hoffmanni_NC_027964:0.067198,Choloepus_didactylus_NC_006924:0.04667)[&label=1]:0.229566)[&label=1]:0.044912,((((Tamandua_tetradactyla_NC_004032:0.016973,Tamandua_mexicana_NC_028574:0.017329)[&label=1]:0.246231,Myrmecophaga_tridactyla_NC_028572:0.181972)[&label=1]:0.698073,Cyclopes_didactylus_NC_028564:0.868073)[&label=1]:0.59047,((Orycteropus_afer_NC_002078:1.41541,(Loxodonta_africana_NC_000934:1.84391,Dugong_dugon_NC_003314:0.446786)[&label=1]:0.606023)[&label=1]:0.977563,((Dasypus_novemcinctus_NC_001821:0.160349,Dasypus_kappleri_NC_028566:0.092047)[&label=1]:0.643112,((Euphractus_sexcinctus_NC_028571:0.050041,(Chaetophractus_villosus_NC_028562:0.046768,(Zaedyus_pichiy_NC_028577:0.042784,Chaetophractus_vellerosus_NC_028561:0.042187)[&label=1]:0.005579)[&label=1]:0.013201)[&label=1]:0.255094,(Doedicurus_sp_FD2016a_KU517659:0.305023,((Chlamyphorus_truncatus_NC_028563:0.216686,Calyptophractus_retusus_NC_028560:0.189771)[&label=1]:0.141947,(Priodontes_maximus_NC_028573:0.229691,((Tolypeutes_tricinctus_NC_028576:0.210191,Tolypeutes_matacus_NC_028575:0.228274)[&label=1]:0.120115,(Cabassous_tatouay_NC_028558:0.069348,(Cabassous_chacoensis_NC_028557:0.052354,(Cabassous_unicinctus_NC_028559:0.008253,Cabassous_centralis_NC_028556:0.012447)[&label=1]:0.059291)[&label=1]:0.020574)[&label=1]:0.10713)[&label=1]:0.037574)[&label=1]:0.080945)[&label=0.94]:0.02362)[&label=0.97]:0.034004)[&label=1]:0.113065)[&label=1]:0.613533)[&label=1]:0.256754)[&label=1]:0.495433,((Megatherium_americanum_Lib1043:0.019116,(Megatherium_americanum_LibX23:6.6E-5,(Megatherium_americanum_Lib_X25:6.2E-5,Megatherium_americanum_LibX18:6.1E-5)[&label=0.99]:1.82E-4)[&label=1]:0.012148)[&label=1]:0.173403,(Megalonyx_jeffersonii_Lib69:0.145016,(Nothrotheriops_shastensis_LibX32:0.199586,(Bradypus_torquatus_NC_028555:0.254804,((Bradypus_variegatus_NC_028501:0.071069,Bradypus_tridactylus_NC_037527:0.076081)[&label=1]:0.025278,Bradypus_pygmaeus_NC_028554:0.077374)[&label=1]:0.160208)[&label=1]:0.130214)[&label=0.63]:0.00787)[&label=1]:0.015917)[&label=1]:0.028079)[&label=1]:0.058558);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=14.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

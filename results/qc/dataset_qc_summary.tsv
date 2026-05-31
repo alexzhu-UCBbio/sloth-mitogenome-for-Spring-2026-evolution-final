@@ -1,0 +1,10 @@
+metric	value
+fasta_sequence_count	40
+fasta_unique_taxon_labels	40
+fasta_length_values	{15157: 40}
+phylip_header_ntax	40
+phylip_header_nchar	15157
+phylip_unique_taxon_labels	40
+nexus_unique_taxon_labels	40
+fasta_vs_phylip_same_taxa	True
+fasta_vs_nexus_same_taxa	True
