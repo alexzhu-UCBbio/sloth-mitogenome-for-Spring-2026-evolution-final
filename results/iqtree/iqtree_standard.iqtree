@@ -1,0 +1,390 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Partition file name: model_partition/Delsuc-CurrBiol-2019_iqtree_42partitions.partitions
+Input file name: input_dataset/Delsuc-CurrBiol-2019_dataset.phylip
+Type of analysis: ModelFinder + tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 991127
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 40 taxa with 32 partitions and 15157 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	40	896	389	336	468	468	12S
+   2	DNA	40	1434	612	544	780	780	16S
+   3	DNA	40	227	132	107	89	89	ATP6_p1
+   4	DNA	40	3107	763	686	2166	2166	ATP6_p2+ATP8_p2+COX2_p2+COX3_p2+CYTB_p2+ND1_p2+ND2_p2+ND3_p2+ND4L_p2+ND4_p2+ND5_p2
+   5	DNA	40	227	226	219	4	4	ATP6_p3
+   6	DNA	40	66	54	40	17	17	ATP8_p1
+   7	DNA	40	66	61	54	9	9	ATP8_p3
+   8	DNA	40	513	127	101	383	383	COX1_p1
+   9	DNA	40	513	34	19	481	481	COX1_p2
+  10	DNA	40	513	511	501	4	4	COX1_p3
+  11	DNA	40	228	100	78	129	129	COX2_p1
+  12	DNA	40	228	228	217	1	1	COX2_p3
+  13	DNA	40	261	91	74	167	167	COX3_p1
+  14	DNA	40	261	259	247	4	4	COX3_p3
+  15	DNA	40	380	175	141	204	204	CYTB_p1
+  16	DNA	40	380	370	352	11	11	CYTB_p3
+  17	DNA	40	318	159	131	161	161	ND1_p1
+  18	DNA	40	318	313	296	6	6	ND1_p3
+  19	DNA	40	346	221	187	129	129	ND2_p1
+  20	DNA	40	346	341	328	4	4	ND2_p3
+  21	DNA	40	115	70	57	50	50	ND3_p1
+  22	DNA	40	115	113	109	3	3	ND3_p3
+  23	DNA	40	99	67	55	36	36	ND4L_p1
+  24	DNA	40	99	99	96	2	2	ND4L_p3
+  25	DNA	40	459	259	214	200	200	ND4_p1
+  26	DNA	40	459	453	442	5	5	ND4_p3
+  27	DNA	40	608	342	288	271	271	ND5_p1
+  28	DNA	40	608	604	585	6	6	ND5_p3
+  29	DNA	40	174	112	92	68	68	ND6_p1
+  30	DNA	40	174	79	54	101	101	ND6_p2
+  31	DNA	40	174	169	162	4	4	ND6_p3
+  32	DNA	40	1445	650	558	731	731	tRNAs
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+I+R3:12S,GTR+F+I+G4:16S,TIM3+F+R3:ATP6_p1,TVM+F+R3:ATP6_p2+ATP8_p2+COX2_p2+COX3_p2+CYTB_p2+ND1_p2+ND2_p2+ND3_p2+ND4L_p2+ND4_p2+ND5_p2,TN+F+I+G4:ATP6_p3,TN+F+R3:ATP8_p1,HKY+F+I+G4:ATP8_p3,TIM2+I+G4:COX1_p1,HKY+F+R3:COX1_p2,TIM3+F+R3:COX1_p3,TPM2u+I+G4:COX2_p1,HKY+F+I+G4:COX2_p3,TPM2u+I+G4:COX3_p1,TIM3+F+I+G4:COX3_p3,TIM2+F+I+G4:CYTB_p1,TIM3+F+I+R3:CYTB_p3,GTR+F+G4:ND1_p1,TIM3+F+I+G4:ND1_p3,TVM+F+I+G4:ND2_p1,TIM3+F+G4:ND2_p3,TVM+I+G4:ND3_p1,TIM3+F+R2:ND3_p3,TIM+G4:ND4L_p1,TN+F+I+G4:ND4L_p3,GTR+F+I+G4:ND4_p1,TIM+F+I+G4:ND4_p3,TVM+F+I+G4:ND5_p1,TIM3+F+G4:ND5_p3,TN+F+I+G4:ND6_p1,TVM+F+G4:ND6_p2,TIM2+F+G4:ND6_p3,TVM+F+R3:tRNAs
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  TIM2+F+I+R3       -8183.123   16390.245 + 3.05e-314   16390.599 + -1.47e-210   16447.821 + 2.72e-314
+   2  GTR+F+I+G4       -13538.878   27099.756 + 3.05e-314   27099.941 + -1.47e-210   27157.706 + 2.72e-314
+   3  TIM3+F+R3         -2522.249    5066.499 + 3.05e-314    5067.726 + -1.47e-210    5104.173 + 2.72e-314
+   4  TVM+F+R3         -17168.354   34360.707 + 3.05e-314   34360.808 + -1.47e-210   34433.204 + 2.72e-314
+   5  TN+F+I+G4         -5910.983   11837.966 + 3.05e-314   11838.626 + -1.47e-210   11865.365 + 2.72e-314
+   6  TN+F+R3            -920.047    1860.094 + 3.05e-314    1864.094 + -1.47e-210    1881.991 + 2.72e-314
+   7  HKY+F+I+G4        -1386.992    2787.984 + 3.05e-314    2789.915 + -1.47e-210    2803.311 + 2.72e-314
+   8  TIM2+I+G4         -2777.049    5566.097 + 3.05e-314    5566.263 + -1.47e-210    5591.539 + 2.72e-314
+   9  HKY+F+R3          -1093.387    2204.774 + 3.05e-314    2205.132 + -1.47e-210    2242.937 + 2.72e-314
+  10  TIM3+F+R3        -13334.803   26691.607 + 3.05e-314   26692.134 + -1.47e-210   26738.250 + 2.72e-314
+  11  TPM2u+I+G4        -1769.139    3548.278 + 3.05e-314    3548.549 + -1.47e-210    3565.425 + 2.72e-314
+  12  HKY+F+I+G4        -5559.641   11133.283 + 3.05e-314   11133.792 + -1.47e-210   11157.288 + 2.72e-314
+  13  TPM2u+I+G4        -1902.291    3814.581 + 3.05e-314    3814.817 + -1.47e-210    3832.404 + 2.72e-314
+  14  TIM3+F+I+G4       -6355.049   12728.099 + 3.05e-314   12728.816 + -1.47e-210   12760.179 + 2.72e-314
+  15  TIM2+F+I+G4       -3525.371    7068.741 + 3.05e-314    7069.228 + -1.47e-210    7104.203 + 2.72e-314
+  16  TIM3+F+I+R3       -8821.729   17667.459 + 3.05e-314   17668.309 + -1.47e-210   17714.741 + 2.72e-314
+  17  GTR+F+G4          -3207.269    6434.538 + 3.05e-314    6435.254 + -1.47e-210    6472.158 + 2.72e-314
+  18  TIM3+F+I+G4       -7533.114   15084.227 + 3.05e-314   15084.812 + -1.47e-210   15118.086 + 2.72e-314
+  19  TVM+F+I+G4        -4293.117    8606.234 + 3.05e-314    8606.890 + -1.47e-210    8644.698 + 2.72e-314
+  20  TIM3+F+G4         -8322.681   16661.362 + 3.05e-314   16661.790 + -1.47e-210   16692.134 + 2.72e-314
+  21  TVM+I+G4          -1326.417    2666.834 + 3.05e-314    2667.881 + -1.47e-210    2686.049 + 2.72e-314
+  22  TIM3+F+R2         -2849.886    5717.771 + 3.05e-314    5719.486 + -1.47e-210    5742.476 + 2.72e-314
+  23  TIM+G4            -1254.031    2518.062 + 3.05e-314    2518.707 + -1.47e-210    2531.038 + 2.72e-314
+  24  TN+F+I+G4         -2501.682    5019.365 + 3.05e-314    5020.965 + -1.47e-210    5040.125 + 2.72e-314
+  25  GTR+F+I+G4        -4937.132    9896.264 + 3.05e-314    9896.854 + -1.47e-210    9941.683 + 2.72e-314
+  26  TIM+F+I+G4       -11562.408   23142.816 + 3.05e-314   23143.217 + -1.47e-210   23179.977 + 2.72e-314
+  27  TVM+F+I+G4        -7153.874   14327.749 + 3.05e-314   14328.117 + -1.47e-210   14371.850 + 2.72e-314
+  28  TIM3+F+G4        -15257.793   30531.585 + 3.05e-314   30531.825 + -1.47e-210   30566.866 + 2.72e-314
+  29  TN+F+I+G4         -2073.010    4162.019 + 3.05e-314    4162.892 + -1.47e-210    4187.292 + 2.72e-314
+  30  TVM+F+G4          -1304.667    2627.334 + 3.05e-314    2628.432 + -1.47e-210    2655.766 + 2.72e-314
+  31  TIM2+F+G4         -4183.962    8383.924 + 3.05e-314    8384.797 + -1.47e-210    8409.197 + 2.72e-314
+  32  TVM+F+R3         -13071.444   26166.889 + 3.05e-314   26167.106 + -1.47e-210   26230.199 + 2.72e-314
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  TIM2+F+I+R3    0.2701  TIM2{5.1217,20.738,40.3137}+F{0.351801,0.248298,0.188248,0.211652}+I{0.386017}+R3{0.36721,0.376901,0.191922,2.47452,0.0548504,7.04975}
+   2  GTR+F+I+G4     0.2877  GTR{4.99477,11.0706,3.04957,0.133872,31.4891}+F{0.366361,0.233176,0.182647,0.217816}+I{0.410365}+G4{0.727197}
+   3  TIM3+F+R3      0.3856  TIM3{0.155222,4.4238,8.19474}+F{0.370207,0.29117,0.189952,0.148671}+R3{0.572109,0.102095,0.395294,1.78524,0.0325975,7.23665}
+   4  TVM+F+R3       0.1123  TVM{11.4041,40.9353,3.85092,7.58487}+F{0.194519,0.274493,0.113056,0.417932}+R3{0.744237,0.0864103,0.184353,2.1255,0.0714101,7.61585}
+   5  TN+F+I+G4      2.7253  TN{37.5488,18.3681}+F{0.406236,0.348171,0.0694138,0.176179}+I{0.016054}+G4{3.02612}
+   6  TN+F+R3        0.6480  TN{27.6123,4.66007}+F{0.384937,0.300114,0.058197,0.256752}+R3{0.49478,0.142846,0.427168,1.20482,0.0780526,5.31262}
+   7  HKY+F+I+G4     1.5909  HKY{17.8369}+F{0.489159,0.241917,0.0931913,0.175732}+I{0.126427}+G4{1.81716}
+   8  TIM2+F+I+G4    0.1028  TIM2{5.07541,27.8551,96.1656}+F{0.266688,0.211401,0.292035,0.229875}+I{0.0852507}+G4{0.117454}
+   9  HKY+F+R3       0.0176  HKY{3.09466}+F{0.179111,0.261253,0.148455,0.411181}+R3{0.0258041,0.45661,0.958876,0.457064,0.0153201,35.8972}
+  10  TIM3+F+R3      3.1972  TIM3{0.30947,20.9629,13.4954}+F{0.393324,0.341647,0.0791423,0.185887}+R3{0.00742844,0.0161925,0.689168,0.49809,0.303403,2.16416}
+  11  TPM2u+F+I+G4   0.1829  TPM2u{2.71934,21.7057}+F{0.293782,0.283978,0.22985,0.19239}+I{0.426114}+G4{0.885787}
+  12  HKY+F+I+G4     3.9453  HKY{45.2323}+F{0.429543,0.337208,0.0710604,0.162189}+I{0.00438596}+G4{1.44184}
+  13  TPM2u+F+I+G4   0.1722  TPM2u{4.9213,31.3357}+F{0.22886,0.259897,0.242625,0.268618}+I{0.505032}+G4{0.706103}
+  14  TIM3+F+I+G4    3.6710  TIM3{0.392163,44.4877,11.9897}+F{0.402299,0.383908,0.0599617,0.153831}+I{0.0122565}+G4{1.71788}
+  15  TIM2+F+I+G4    0.2439  TIM2{3.1635,12.2879,21.8602}+F{0.299092,0.264513,0.212227,0.224168}+I{0.445985}+G4{1.04707}
+  16  TIM3+F+I+R3    3.2404  TIM3{0.268289,21.8213,13.7235}+F{0.411594,0.4138,0.0441535,0.130452}+I{0.0165504}+R3{0.106317,0.169668,0.618469,0.569009,0.258663,2.43578}
+  17  GTR+F+G4       0.2651  GTR{0.479719,4.52947,1.21436,0.0542495,7.60089}+F{0.287985,0.28885,0.214258,0.208907}+G4{0.259416}
+  18  TIM3+F+I+G4    3.6795  TIM3{0.287224,28.7011,13.9043}+F{0.467902,0.35553,0.0549217,0.121646}+I{0.0137973}+G4{1.68216}
+  19  TVM+F+I+G4     0.3803  TVM{0.534881,2.72041,0.437291,0.0025392}+F{0.428499,0.261104,0.128832,0.181565}+I{0.322858}+G4{1.64433}
+  20  TIM3+F+G4      3.4239  TIM3{0.336884,23.1346,14.6513}+F{0.49154,0.336206,0.0497469,0.122507}+G4{2.14061}
+  21  TVM+F+I+G4     0.3327  TVM{0.872092,9.45227,3.23947,0.0367232}+F{0.254403,0.290063,0.215917,0.239617}+I{0.387195}+G4{1.59762}
+  22  TIM3+F+R2      3.5078  TIM3{0.317511,26.5094,13.8732}+F{0.459013,0.332464,0.0554468,0.153077}+R2{0.671761,0.482814,0.328239,2.05845}
+  23  TIM+F+G4       0.4139  TIM{4.04369,0.156955,8.33566}+F{0.282828,0.275253,0.221212,0.220707}+G4{0.43456}
+  24  TN+F+I+G4      3.4614  TN{43.1463,24.0077}+F{0.43784,0.348485,0.0793317,0.134343}+I{0.0185983}+G4{1.97079}
+  25  GTR+F+I+G4     0.3044  GTR{0.578399,3.67443,1.3206,0.0550376,6.92255}+F{0.36002,0.298045,0.151234,0.190701}+I{0.364779}+G4{1.50545}
+  26  TIM+F+I+G4     3.2398  TIM{77.2773,2.84627,36.1713}+F{0.438474,0.354671,0.0608753,0.14598}+I{0.00726693}+G4{2.44384}
+  27  TVM+F+I+G4     0.3619  TVM{1.23524,6.20513,1.3833,0.0962618}+F{0.341648,0.269668,0.178188,0.210496}+I{0.391233}+G4{1.28191}
+  28  TIM3+F+G4      3.2283  TIM3{0.194263,18.372,9.4527}+F{0.409448,0.396043,0.0528253,0.141683}+G4{2.15395}
+  29  TN+F+I+G4      0.5836  TN{10.1284,51.0571}+F{0.190608,0.0538084,0.450909,0.304674}+I{0.332214}+G4{1.20088}
+  30  TVM+F+G4       0.2220  TVM{0.0001,24.142,1.73484,9.82899}+F{0.141662,0.130121,0.257357,0.47086}+G4{0.258759}
+  31  TIM2+F+G4      3.5717  TIM2{3.63301,56.7792,100}+F{0.140652,0.0489036,0.32386,0.486584}+G4{2.0411}
+  32  TVM+F+R3       0.2505  TVM{1.4782,8.98515,0.770892,0.0001}+F{0.321109,0.186772,0.202129,0.28999}+R3{0.595855,0.0728014,0.293953,1.35045,0.110192,5.07887}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -185607.0262 (s.e. 1414.6589)
+Unconstrained log-likelihood (without tree): -66074.4309
+Number of free parameters (#branches + #model parameters): 376
+Akaike information criterion (AIC) score: 371966.0524
+Corrected Akaike information criterion (AICc) score: 371985.2340
+Bayesian information criterion (BIC) score: 374833.5103
+
+Marginal log-likelihood of the tree: -191545.8005
+Marginal Akaike information criterion (mAIC) score: 383843.6010
+
+Total tree length (sum of branch lengths): 10.2684
+Sum of internal branch lengths: 4.0118 (39.0694% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acratocnus_ye_Lib58' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++----Acratocnus_ye_Lib58
+|
+|                  +--Bradypus_pygmaeus_NC_028554
+|              +---| (100)
+|              |   |  +--Bradypus_tridactylus_NC_037527
+|              |   +--| (100)
+|              |      +--Bradypus_variegatus_NC_028501
+|           +--| (100)
+|           |  +------Bradypus_torquatus_NC_028555
+|        +--| (90)
+|        |  |  +---Megalonyx_jeffersonii_Lib69
+|        |  +--| (72)
+|        |     +----Nothrotheriops_shastensis_LibX32
+|     +--| (95)
+|     |  |          +**Megatherium_americanum_LibX18
+|     |  |       +--| (92)
+|     |  |       |  +**Megatherium_americanum_Lib_X25
+|     |  |    +--| (100)
+|     |  |    |  +**Megatherium_americanum_LibX23
+|     |  +----| (100)
+|     |       +--Megatherium_americanum_Lib1043
+|  +--| (49)
+|  |  |       +--Choloepus_didactylus_NC_006924
+|  |  |  +----| (100)
+|  |  |  |    +--Choloepus_hoffmanni_NC_027964
+|  |  +--| (100)
+|  |     |      +**Mylodon_darwinii_Lib67
+|  |     |   +**| (43)
+|  |     |   |  +**Mylodon_listai_Lib16
+|  |     +---| (100)
+|  |         +**Mylodon_darwinii_NC_037941
++--| (100)
+|  |                                         +--Cabassous_centralis_NC_028556
+|  |                                      +--| (100)
+|  |                                      |  +--Cabassous_unicinctus_NC_028559
+|  |                                   +--| (100)
+|  |                                   |  +--Cabassous_chacoensis_NC_028557
+|  |                                +--| (100)
+|  |                                |  +--Cabassous_tatouay_NC_028558
+|  |                             +--| (100)
+|  |                             |  |  +----Tolypeutes_matacus_NC_028575
+|  |                             |  +--| (100)
+|  |                             |     +----Tolypeutes_tricinctus_NC_028576
+|  |                          +--| (100)
+|  |                          |  +-----Priodontes_maximus_NC_028573
+|  |                       +--| (53)
+|  |                       |  |  +----Calyptophractus_retusus_NC_028560
+|  |                       |  +--| (100)
+|  |                       |     +----Chlamyphorus_truncatus_NC_028563
+|  |                    +--| (76)
+|  |                    |  +------Doedicurus_sp_FD2016a_KU517659
+|  |                 +--| (100)
+|  |                 |  |          +--Chaetophractus_vellerosus_NC_028561
+|  |                 |  |       +--| (99)
+|  |                 |  |       |  +--Zaedyus_pichiy_NC_028577
+|  |                 |  |    +--| (85)
+|  |                 |  |    |  +--Chaetophractus_villosus_NC_028562
+|  |                 |  +----| (100)
+|  |                 |       +--Euphractus_sexcinctus_NC_028571
+|  |          +------| (100)
+|  |          |      |         +--Dasypus_kappleri_NC_028566
+|  |          |      +---------| (100)
+|  |          |                +---Dasypus_novemcinctus_NC_001821
+|  |       +--| (100)
+|  |       |  |               +-----------Dugong_dugon_NC_003314
+|  |       |  |        +------| (100)
+|  |       |  |        |      +----------------------------Loxodonta_africana_NC_000934
+|  |       |  +--------| (100)
+|  |       |           +--------------------Orycteropus_afer_NC_002078
+|  +-------| (100)
+|          |      +---------------Cyclopes_didactylus_NC_028564
+|          +------| (100)
+|                 |         +----Myrmecophaga_tridactyla_NC_028572
+|                 +---------| (100)
+|                           |    +--Tamandua_mexicana_NC_028574
+|                           +----| (100)
+|                                +--Tamandua_tetradactyla_NC_004032
+|
++----Parocnus_serus_Lib54
+
+Tree in newick format:
+
+(Acratocnus_ye_Lib58:0.1920580779,((((((Bradypus_pygmaeus_NC_028554:0.0990543294,(Bradypus_tridactylus_NC_037527:0.0932127372,Bradypus_variegatus_NC_028501:0.0816473730)100:0.0293912454)100:0.1524946577,Bradypus_torquatus_NC_028555:0.2673450914)100:0.0994034090,(Megalonyx_jeffersonii_Lib69:0.1414957819,Nothrotheriops_shastensis_LibX32:0.1892569433)72:0.0130601564)90:0.0113071230,(((Megatherium_americanum_LibX18:0.0000011976,Megatherium_americanum_Lib_X25:0.0000011976)92:0.0001300701,Megatherium_americanum_LibX23:0.0000011976)100:0.0148714639,Megatherium_americanum_Lib1043:0.0186950052)100:0.1690759119)95:0.0223946714,((Choloepus_didactylus_NC_006924:0.0606233227,Choloepus_hoffmanni_NC_027964:0.0748719553)100:0.1966025578,((Mylodon_darwinii_Lib67:0.0000011976,Mylodon_listai_Lib16:0.0000011976)43:0.0000011976,Mylodon_darwinii_NC_037941:0.0000011976)100:0.1515031659)100:0.0395122509)49:0.0155435578,(((((((((((Cabassous_centralis_NC_028556:0.0120731433,Cabassous_unicinctus_NC_028559:0.0097184232)100:0.0633942978,Cabassous_chacoensis_NC_028557:0.0565010995)100:0.0223531149,Cabassous_tatouay_NC_028558:0.0717870479)100:0.0988500046,(Tolypeutes_matacus_NC_028575:0.1943083253,Tolypeutes_tricinctus_NC_028576:0.1859245254)100:0.0898798467)100:0.0269155303,Priodontes_maximus_NC_028573:0.2236993971)100:0.0605366152,(Calyptophractus_retusus_NC_028560:0.1798441348,Chlamyphorus_truncatus_NC_028563:0.1943129224)100:0.1059246728)53:0.0200683804,Doedicurus_sp_FD2016a_KU517659:0.2472450241)76:0.0289011288,(((Chaetophractus_vellerosus_NC_028561:0.0429450216,Zaedyus_pichiy_NC_028577:0.0451536802)99:0.0075527925,Chaetophractus_villosus_NC_028562:0.0479914556)85:0.0133592354,Euphractus_sexcinctus_NC_028571:0.0540275722)100:0.1928814260)100:0.1150632609,(Dasypus_kappleri_NC_028566:0.0919963835,Dasypus_novemcinctus_NC_001821:0.1493592070)100:0.3366957705)100:0.2511165776,((Dugong_dugon_NC_003314:0.4043352032,Loxodonta_africana_NC_000934:0.9837639490)100:0.2378430367,Orycteropus_afer_NC_002078:0.7187480656)100:0.3265866248)100:0.1155271669,(Cyclopes_didactylus_NC_028564:0.5595474796,(Myrmecophaga_tridactyla_NC_028572:0.1842546938,(Tamandua_mexicana_NC_028574:0.0164781769,Tamandua_tetradactyla_NC_004032:0.0210640358)100:0.1936059629)100:0.3606087817)100:0.2384268780)100:0.2990552016)100:0.0430116875,Parocnus_serus_Lib54:0.1916391787);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -185607.114678
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----Acratocnus_ye_Lib58
+|
+|                  +--Bradypus_pygmaeus_NC_028554
+|              +---| (100)
+|              |   |  +--Bradypus_tridactylus_NC_037527
+|              |   +--| (100)
+|              |      +--Bradypus_variegatus_NC_028501
+|           +--| (100)
+|           |  +------Bradypus_torquatus_NC_028555
+|        +--| (90)
+|        |  |  +---Megalonyx_jeffersonii_Lib69
+|        |  +--| (72)
+|        |     +----Nothrotheriops_shastensis_LibX32
+|     +--| (95)
+|     |  |          +--Megatherium_americanum_LibX18
+|     |  |       +--| (92)
+|     |  |       |  +--Megatherium_americanum_Lib_X25
+|     |  |    +--| (100)
+|     |  |    |  +--Megatherium_americanum_LibX23
+|     |  +----| (100)
+|     |       +--Megatherium_americanum_Lib1043
+|  +--| (49)
+|  |  |       +--Choloepus_didactylus_NC_006924
+|  |  |  +----| (100)
+|  |  |  |    +--Choloepus_hoffmanni_NC_027964
+|  |  +--| (100)
+|  |     |      +--Mylodon_darwinii_Lib67
+|  |     |   +--| (43)
+|  |     |   |  +--Mylodon_listai_Lib16
+|  |     +---| (100)
+|  |         +--Mylodon_darwinii_NC_037941
++--| (100)
+|  |                                         +--Cabassous_centralis_NC_028556
+|  |                                      +--| (100)
+|  |                                      |  +--Cabassous_unicinctus_NC_028559
+|  |                                   +--| (100)
+|  |                                   |  +--Cabassous_chacoensis_NC_028557
+|  |                                +--| (100)
+|  |                                |  +--Cabassous_tatouay_NC_028558
+|  |                             +--| (100)
+|  |                             |  |  +----Tolypeutes_matacus_NC_028575
+|  |                             |  +--| (100)
+|  |                             |     +----Tolypeutes_tricinctus_NC_028576
+|  |                          +--| (100)
+|  |                          |  +-----Priodontes_maximus_NC_028573
+|  |                       +--| (53)
+|  |                       |  |  +----Calyptophractus_retusus_NC_028560
+|  |                       |  +--| (100)
+|  |                       |     +----Chlamyphorus_truncatus_NC_028563
+|  |                    +--| (76)
+|  |                    |  +------Doedicurus_sp_FD2016a_KU517659
+|  |                 +--| (100)
+|  |                 |  |          +--Chaetophractus_vellerosus_NC_028561
+|  |                 |  |       +--| (99)
+|  |                 |  |       |  +--Zaedyus_pichiy_NC_028577
+|  |                 |  |    +--| (85)
+|  |                 |  |    |  +--Chaetophractus_villosus_NC_028562
+|  |                 |  +----| (100)
+|  |                 |       +--Euphractus_sexcinctus_NC_028571
+|  |          +------| (100)
+|  |          |      |         +--Dasypus_kappleri_NC_028566
+|  |          |      +---------| (100)
+|  |          |                +---Dasypus_novemcinctus_NC_001821
+|  |       +--| (100)
+|  |       |  |               +-----------Dugong_dugon_NC_003314
+|  |       |  |        +------| (100)
+|  |       |  |        |      +----------------------------Loxodonta_africana_NC_000934
+|  |       |  +--------| (100)
+|  |       |           +--------------------Orycteropus_afer_NC_002078
+|  +-------| (100)
+|          |      +---------------Cyclopes_didactylus_NC_028564
+|          +------| (100)
+|                 |         +----Myrmecophaga_tridactyla_NC_028572
+|                 +---------| (100)
+|                           |    +--Tamandua_mexicana_NC_028574
+|                           +----| (100)
+|                                +--Tamandua_tetradactyla_NC_004032
+|
++----Parocnus_serus_Lib54
+
+
+Consensus tree in newick format: 
+
+(Acratocnus_ye_Lib58:0.1919767420,((((((Bradypus_pygmaeus_NC_028554:0.0990440306,(Bradypus_tridactylus_NC_037527:0.0932034527,Bradypus_variegatus_NC_028501:0.0816235764)100:0.0293862443)100:0.1524529325,Bradypus_torquatus_NC_028555:0.2672607570)100:0.0994190336,(Megalonyx_jeffersonii_Lib69:0.1414480266,Nothrotheriops_shastensis_LibX32:0.1891848069)72:0.0130832207)90:0.0113139842,(((Megatherium_americanum_LibX18:0.0000020377,Megatherium_americanum_Lib_X25:0.0000020377)92:0.0001289421,Megatherium_americanum_LibX23:0.0000020377)100:0.0148564056,Megatherium_americanum_Lib1043:0.0187064624)100:0.1690278881)95:0.0223910225,((Choloepus_didactylus_NC_006924:0.0606174264,Choloepus_hoffmanni_NC_027964:0.0748347859)100:0.1965283501,((Mylodon_darwinii_Lib67:0.0000020377,Mylodon_listai_Lib16:0.0000020377)43:0.0000020377,Mylodon_darwinii_NC_037941:0.0000020377)100:0.1514390396)100:0.0395438835)49:0.0155205864,(((((((((((Cabassous_centralis_NC_028556:0.0120731502,Cabassous_unicinctus_NC_028559:0.0097073639)100:0.0633544464,Cabassous_chacoensis_NC_028557:0.0564565464)100:0.0223560947,Cabassous_tatouay_NC_028558:0.0717223606)100:0.0987935433,(Tolypeutes_matacus_NC_028575:0.1941749088,Tolypeutes_tricinctus_NC_028576:0.1857784002)100:0.0898376345)100:0.0269186517,Priodontes_maximus_NC_028573:0.2235333351)100:0.0605088791,(Calyptophractus_retusus_NC_028560:0.1797432400,Chlamyphorus_truncatus_NC_028563:0.1941712199)100:0.1058751579)53:0.0200742652,Doedicurus_sp_FD2016a_KU517659:0.2470676233)76:0.0289136096,(((Chaetophractus_vellerosus_NC_028561:0.0429202473,Zaedyus_pichiy_NC_028577:0.0451243838)99:0.0075509422,Chaetophractus_villosus_NC_028562:0.0479623658)85:0.0133473976,Euphractus_sexcinctus_NC_028571:0.0540040223)100:0.1927310437)100:0.1150964656,(Dasypus_kappleri_NC_028566:0.0920509150,Dasypus_novemcinctus_NC_001821:0.1492036774)100:0.3363769443)100:0.2509783540,((Dugong_dugon_NC_003314:0.4041073901,Loxodonta_africana_NC_000934:0.9831293655)100:0.2377646898,Orycteropus_afer_NC_002078:0.7182730324)100:0.3264759900)100:0.1154796212,(Cyclopes_didactylus_NC_028564:0.5592772496,(Myrmecophaga_tridactyla_NC_028572:0.1843161460,(Tamandua_mexicana_NC_028574:0.0164793143,Tamandua_tetradactyla_NC_004032:0.0210566309)100:0.1934331461)100:0.3603924575)100:0.2384104920)100:0.2989024903)100:0.0430653586,Parocnus_serus_Lib54:0.1915506515);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/iqtree/iqtree_standard.treefile -p results/iqtree/iqtree_standard.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s input_dataset/Delsuc-CurrBiol-2019_dataset.phylip --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s input_dataset/Delsuc-CurrBiol-2019_dataset.phylip --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jun  1 04:04:44 2026
+Total CPU time used: 30327.38792 seconds (8h:25m:27s)
+Total wall-clock time used: 12594.82372 seconds (3h:29m:54s)
+

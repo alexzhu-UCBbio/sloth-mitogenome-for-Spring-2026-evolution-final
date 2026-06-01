@@ -1,0 +1,68 @@
+#nexus
+begin sets;
+  charset 12S = 1-896;
+  charset 16S = 897-2330;
+  charset ATP6_p1 = 2331-3011\3;
+  charset ATP6_p2_ATP8_p2_COX2_p2_COX3_p2_CYTB_p2_ND1_p2_ND2_p2_ND3_p2_ND4L_p2_ND4_p2_ND5_p2 = 2332-3011\3  3013-3209\3  4750-5432\3  5434-6215\3  6217-7355\3  7357-8309\3  8311-9347\3  9349-9692\3  9694-9989\3  9991-11366\3  11368-13190\3;
+  charset ATP6_p3 = 2333-3011\3;
+  charset ATP8_p1 = 3012-3209\3;
+  charset ATP8_p3 = 3014-3209\3;
+  charset COX1_p1 = 3210-4748\3;
+  charset COX1_p2 = 3211-4748\3;
+  charset COX1_p3 = 3212-4748\3;
+  charset COX2_p1 = 4749-5432\3;
+  charset COX2_p3 = 4751-5432\3;
+  charset COX3_p1 = 5433-6215\3;
+  charset COX3_p3 = 5435-6215\3;
+  charset CYTB_p1 = 6216-7355\3;
+  charset CYTB_p3 = 6218-7355\3;
+  charset ND1_p1 = 7356-8309\3;
+  charset ND1_p3 = 7358-8309\3;
+  charset ND2_p1 = 8310-9347\3;
+  charset ND2_p3 = 8312-9347\3;
+  charset ND3_p1 = 9348-9692\3;
+  charset ND3_p3 = 9350-9692\3;
+  charset ND4L_p1 = 9693-9989\3;
+  charset ND4L_p3 = 9695-9989\3;
+  charset ND4_p1 = 9990-11366\3;
+  charset ND4_p3 = 9992-11366\3;
+  charset ND5_p1 = 11367-13190\3;
+  charset ND5_p3 = 11369-13190\3;
+  charset ND6_p1 = 13191-13712\3;
+  charset ND6_p2 = 13192-13712\3;
+  charset ND6_p3 = 13193-13712\3;
+  charset tRNAs = 13713-13779  13780-13847  13848-13919  13920-13985  13986-14029  14030-14102  14103-14170  14171-14235  14236-14304  14305-14371  14372-14446  14447-14514  14515-14581  14582-14650  14651-14714  14715-14780  14781-14847  14848-14905  14906-14962  14963-15030  15031-15091  15092-15157;
+  charpartition mymodels =
+    TIM2+F+I+R3: 12S,
+    GTR+F+I+G4: 16S,
+    TIM3+F+R3: ATP6_p1,
+    TVM+F+R3: ATP6_p2_ATP8_p2_COX2_p2_COX3_p2_CYTB_p2_ND1_p2_ND2_p2_ND3_p2_ND4L_p2_ND4_p2_ND5_p2,
+    TN+F+I+G4: ATP6_p3,
+    TN+F+R3: ATP8_p1,
+    HKY+F+I+G4: ATP8_p3,
+    TIM2+I+G4: COX1_p1,
+    HKY+F+R3: COX1_p2,
+    TIM3+F+R3: COX1_p3,
+    TPM2u+I+G4: COX2_p1,
+    HKY+F+I+G4: COX2_p3,
+    TPM2u+I+G4: COX3_p1,
+    TIM3+F+I+G4: COX3_p3,
+    TIM2+F+I+G4: CYTB_p1,
+    TIM3+F+I+R3: CYTB_p3,
+    GTR+F+G4: ND1_p1,
+    TIM3+F+I+G4: ND1_p3,
+    TVM+F+I+G4: ND2_p1,
+    TIM3+F+G4: ND2_p3,
+    TVM+I+G4: ND3_p1,
+    TIM3+F+R2: ND3_p3,
+    TIM+G4: ND4L_p1,
+    TN+F+I+G4: ND4L_p3,
+    GTR+F+I+G4: ND4_p1,
+    TIM+F+I+G4: ND4_p3,
+    TVM+F+I+G4: ND5_p1,
+    TIM3+F+G4: ND5_p3,
+    TN+F+I+G4: ND6_p1,
+    TVM+F+G4: ND6_p2,
+    TIM2+F+G4: ND6_p3,
+    TVM+F+R3: tRNAs;
+end;
