@@ -60,16 +60,16 @@
 
 ### `results/`
 
-存放本项目的主要复现结果。这里保留的是可复查的关键输出，小型树文件、摘要表、日志和图；大型 MCMC 链文件已通过 `.gitignore` 排除。
+存放本项目的主要复现结果。这里保留的是可复查的关键输出，小型树文件、摘要表、日志和图。
 
 主要子目录：
 
 - `results/qc/`：数据集 QC 输出，例如 alignment summary 和 42 分区覆盖情况。
 - `results/iqtree/`：IQ-TREE 复现结果，包括 `.treefile`、`.contree`、`.iqtree`、`.log` 和最优分区方案。
 - `results/raxml/`：RAxML 复现结果，包括 best tree、bootstrap trees、带支持率的 bipartition tree 和运行信息。
-- `results/mrbayes/`：MrBayes 复现结果。重点看 `*.con.tre` consensus trees、`.pstat`、`.lstat`、`.tstat` 等摘要文件；posterior sample 原始链未纳入仓库。
-- `results/phylobayes/`：PhyloBayes CAT-GTR+G4 拓扑复现的汇总结果。关键文件是 `bpcomp.con.tre`、`bpcomp.bplist`、`phylobayes_bpcomp.log` 和 `phylobayes_tracecomp.log`；原始 `.chain`、`.trace`、`.treelist` 文件未纳入仓库。
-- `results/MDGUI_dating/`：PhyloSuite / PAML MCMCTree 拓展定年结果。这里不是原文 PhyloBayes 定年的严格复现，主要保留 `FigTree.tre`、repeat 汇总表、校准树和 PhyloSuite 日志。
+- `results/mrbayes/`：MrBayes 复现结果。posterior sample 原始链未纳入仓库。
+- `results/phylobayes/`：PhyloBayes CAT-GTR+G4 拓扑复现的汇总结果。关键文件是 `bpcomp.con.tre`、原始 `.chain`、`.trace`、`.treelist` 文件未纳入仓库。
+- `results/MDGUI_dating/`：PhyloSuite / PAML MCMCTree 拓展定年结果。
 - `results/visualization/`：已生成的树图 PDF，用于报告写作和结果检查。
 
 ## 复现范围说明
@@ -80,10 +80,10 @@
 - IQ-TREE 最大似然树复现。
 - RAxML 最大似然树和 100 次 bootstrap 复现。
 - MrBayes 分区贝叶斯系统树复现。
-- PhyloBayes CAT-GTR+G4 拓扑复现和 `bpcomp` / `tracecomp` 诊断。
-- 发表 PhyloBayes chronogram 的对照整理，以及 MCMCTree 拓展定年分析。
+- PhyloBayes CAT-GTR+G4 拓扑复现。
+- PhyloBayes 定年，这里我们使用PAML MCMCTree复现。
 
-需要注意的是，原文严格的贝叶斯定年使用 PhyloBayes v4.1c。仓库中的 `results/MDGUI_dating/` 是 PAML MCMCTree 拓展分析，不能写作原文 Fig. S6 的严格复现。
+需要注意的是，原文严格的贝叶斯定年使用 PhyloBayes v4.1c。仓库中的 `results/MDGUI_dating/` 是 PAML MCMCTree 替代复现。
 
 ## 文件管理说明
 
@@ -93,4 +93,4 @@
 - MCMCTree 每个 run 的大体积链文件和完整运行目录。
 - IQ-TREE / MrBayes 的 checkpoint、posterior sample 和其他中间文件。
 
-GitHub 仓库中保留的是课程报告复查所需的输入数据、脚本、关键树文件、日志、摘要结果和图件。
+GitHub 仓库中保留的是关键的的输入数据、脚本、关键树文件、日志、摘要结果和图件。
