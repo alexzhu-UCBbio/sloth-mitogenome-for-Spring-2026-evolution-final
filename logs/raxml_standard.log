@@ -1,0 +1,111 @@
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+Found a total of 40 taxa in first tree of tree collection results/raxml/RAxML_bootstrap.raxml_bs
+Expecting all remaining trees in collection to have the same taxon set
+add [Parocnus_serus_Lib54]
+add [Cyclopes_didactylus_NC_028564]
+add [Myrmecophaga_tridactyla_NC_028572]
+add [Tamandua_tetradactyla_NC_004032]
+add [Tamandua_mexicana_NC_028574]
+add [Orycteropus_afer_NC_002078]
+add [Loxodonta_africana_NC_000934]
+add [Dugong_dugon_NC_003314]
+add [Dasypus_kappleri_NC_028566]
+add [Dasypus_novemcinctus_NC_001821]
+add [Chaetophractus_villosus_NC_028562]
+add [Chaetophractus_vellerosus_NC_028561]
+add [Zaedyus_pichiy_NC_028577]
+add [Euphractus_sexcinctus_NC_028571]
+add [Chlamyphorus_truncatus_NC_028563]
+add [Calyptophractus_retusus_NC_028560]
+add [Cabassous_chacoensis_NC_028557]
+add [Cabassous_unicinctus_NC_028559]
+add [Cabassous_centralis_NC_028556]
+add [Cabassous_tatouay_NC_028558]
+add [Tolypeutes_matacus_NC_028575]
+add [Tolypeutes_tricinctus_NC_028576]
+add [Priodontes_maximus_NC_028573]
+add [Doedicurus_sp_FD2016a_KU517659]
+add [Bradypus_variegatus_NC_028501]
+add [Bradypus_tridactylus_NC_037527]
+add [Bradypus_pygmaeus_NC_028554]
+add [Bradypus_torquatus_NC_028555]
+add [Nothrotheriops_shastensis_LibX32]
+add [Megalonyx_jeffersonii_Lib69]
+add [Megatherium_americanum_Lib1043]
+add [Megatherium_americanum_LibX23]
+add [Megatherium_americanum_LibX18]
+add [Megatherium_americanum_Lib_X25]
+add [Mylodon_listai_Lib16]
+add [Mylodon_darwinii_NC_037941]
+add [Mylodon_darwinii_Lib67]
+add [Choloepus_hoffmanni_NC_027964]
+add [Choloepus_didactylus_NC_006924]
+add [Acratocnus_ye_Lib58]
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 5
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 6
+
+This is RAxML Worker Pthread Number: 7
+
+This is RAxML Worker Pthread Number: 3
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+RAxML Bipartition Computation: Drawing support values from trees in file results/raxml/RAxML_bootstrap.raxml_bs onto tree in file results/raxml/RAxML_bestTree.raxml_ml
+
+
+RAxML was called as follows:
+
+/Users/alexzhu/Desktop/Evolution_algorithm/ASTAR_workspace/PhyloSuite/plugins/partitionfinder-2.1.1/programs/raxml_pthreads -T 8 -f b -s input_dataset/Delsuc-CurrBiol-2019_dataset.phylip -q model_partition/raxml_4partitions.partitions -m GTRGAMMAI -t results/raxml/RAxML_bestTree.raxml_ml -z results/raxml/RAxML_bootstrap.raxml_bs -n raxml_standard -w /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml 
+
+
+
+
+Found 1 tree in File results/raxml/RAxML_bestTree.raxml_ml
+
+
+
+Found 100 trees in File results/raxml/RAxML_bootstrap.raxml_bs
+
+
+
+Found 1 tree in File results/raxml/RAxML_bestTree.raxml_ml
+
+
+
+Time for Computation of Bipartitions 0.014086
+Tree with bipartitions written to file:  /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml/RAxML_bipartitions.raxml_standard
+Tree with bipartitions as branch labels written to file:  /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml/RAxML_bipartitionsBranchLabels.raxml_standard
+Execution information file written to :  /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml/RAxML_info.raxml_standard

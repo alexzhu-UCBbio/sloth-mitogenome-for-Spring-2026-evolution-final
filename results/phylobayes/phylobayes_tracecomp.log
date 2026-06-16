@@ -1,0 +1,13 @@
+setting upper limit to : 18000
+results/consensus_run1.trace	 burnin : 1800	sample size : 16200
+results/consensus_run2.trace	 burnin : 1800	sample size : 16200
+name                effsize	rel_diff
+
+loglik              886		0.0397117
+length              3817		0.0895277
+alpha               1743		0.0199557
+Nmode               2987		0.0238429
+statent             1971		0.0281123
+statalpha           714		0.0836539
+rrent               9095		0.0266888
+rrmean              8786		0.0132236

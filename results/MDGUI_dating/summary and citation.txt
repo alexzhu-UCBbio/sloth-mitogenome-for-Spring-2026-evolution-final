@@ -1,0 +1,15 @@
+Molecular dating analyses were conducted using MCMCTREE v4.10.9 (Yang, 2007; dos Reis et al., 2011) with the help of ETE3 (Huerta-Cepas et al., 2016).
+
+If you use PhyloSuite v2, please cite:
+Dong Zhao, Tong Ye, Fangluan Gao, Ivan Jakovlić, Qiong La, Yindong Tong, Xiang Liu, Rui Song, Fei Liu, Zhong-min Lian, Hong Zou, Wen-Xiang Li, Gui-Tang Wang, Benhe Zeng, Dong Zhang, PhyloSuite v2: The Development of an All‐in‐One, Efficient and Visualization‐Oriented Suite for Molecular Dating Analysis and Other Advanced Features. iMeta, 2025. e70095. DOI: https://doi.org/10.1002/imt2.70095.
+
+If you use MCMCTREE, please cite:
+1. Yang Z. PAML 4: phylogenetic analysis by maximum likelihood. Mol Biol Evol. 2007;24:1586–91.
+2. dos Reis, M. and Yang Z. (2011) Approximate likelihood calculation on a phylogeny for Bayesian estimation of divergence times. Molecular Biology and Evolution 28:2161–2172. 
+3. Huerta-Cepas J, Serra F, Bork P. ETE 3: reconstruction, analysis, and visualization of phylogenomic data[J]. Molecular biology and evolution, 2016, 33(6): 1635-1638. 
+4. T.K.F. Wong, N. Ly-Trong, H. Ren, H. Banos, A.J. Roger, E. Susko, C. Bielow, N. De Maio, N. Goldman, M.W. Hahn, G. Huttley, R. Lanfear, B.Q. Minh (2025) IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models. Submitted, https://doi.org/10.32942/X2P62N
+
+Start at: 2026-06-15 18:23:52.939992
+Finish at: 2026-06-15 19:28:09.277298
+Total time used: 1:04:16.337306
+

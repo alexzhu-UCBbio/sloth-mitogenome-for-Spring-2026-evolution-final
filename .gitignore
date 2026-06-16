@@ -4,4 +4,30 @@ __pycache__/
 .Rhistory
 .RData
 .ipynb_checkpoints/
-Plan.docx 
+Plan.docx
+
+# IQ-TREE intermediate files; keep .iqtree, .log, .treefile, .contree, and schemes.
+results/iqtree/*.best_model.nex
+results/iqtree/*.bionj
+results/iqtree/*.boottrees
+results/iqtree/*.ckp.gz
+results/iqtree/*.mldist
+results/iqtree/*.model.gz
+
+# MrBayes posterior samples and checkpoints; keep consensus trees and summaries.
+results/mrbayes/*.ckp
+results/mrbayes/*.ckp~
+results/mrbayes/*.run*.p
+results/mrbayes/*.run*.t
+
+# PhyloBayes raw chains; keep bpcomp consensus trees, summaries, and logs.
+results/phylobayes/*.chain
+results/phylobayes/*.monitor
+results/phylobayes/*.param
+results/phylobayes/*.run
+results/phylobayes/*.trace
+results/phylobayes/*.treelist
+
+# MCMCTree chain/run intermediates; keep top-level/repeat summaries and trees.
+results/MDGUI_dating/**/all_mcmc_runs.txt
+results/MDGUI_dating/repeat*/run*/

@@ -1,0 +1,125 @@
+
+You are using a proportion of Invariable sites estimate, although I don't
+like it. The likelihood epsilon "-f e" will be automatically lowered to 0.001
+to avoid unfavorable effects caused by simultaneous optimization of alpha and P-Invar
+
+
+IMPORTANT WARNING: Sequences Megatherium_americanum_LibX18 and Megatherium_americanum_Lib_X25 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Mylodon_darwinii_Lib67 and Mylodon_darwinii_NC_037941 are exactly identical
+
+
+IMPORTANT WARNING: Sequences Mylodon_darwinii_Lib67 and Mylodon_listai_Lib16 are exactly identical
+
+IMPORTANT WARNING
+Found 3 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+
+A mixed model file with model assignments for undetermined
+columns removed has already been printed to  file model_partition/raxml_4partitions.partitions.reduced
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file input_dataset/Delsuc-CurrBiol-2019_dataset.phylip.reduced
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 7599 distinct alignment patterns
+
+Found 0 invariant alignment patterns that correspond to 0 columns 
+Proportion of gaps and completely undetermined characters in this alignment: 0.19%
+
+RAxML rapid hill-climbing mode
+
+Using 4 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA+P-Invar model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA+P-Invar Model parameters will be estimated up to an accuracy of 0.0010000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 3235
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 740
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 3455
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 169
+Name: Subset4
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/Users/alexzhu/Desktop/Evolution_algorithm/ASTAR_workspace/PhyloSuite/plugins/partitionfinder-2.1.1/programs/raxml_pthreads -T 8 -s input_dataset/Delsuc-CurrBiol-2019_dataset.phylip -q model_partition/raxml_4partitions.partitions -m GTRGAMMAI -p 991127 -n raxml_ml -w /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml 
+
+
+Partition: 0 with name: Subset1
+Base frequencies: 0.326 0.237 0.201 0.235 
+
+Partition: 1 with name: Subset2
+Base frequencies: 0.191 0.271 0.119 0.419 
+
+Partition: 2 with name: Subset3
+Base frequencies: 0.427 0.364 0.060 0.148 
+
+Partition: 3 with name: Subset4
+Base frequencies: 0.141 0.049 0.324 0.487 
+
+Inference[0]: Time 24.099082 GAMMA+P-Invar-based likelihood -190114.268008, best rearrangement setting 5
+alpha[0]: 0.289738 invar[0]: 0.241324 rates[0] ac ag at cg ct gt: 1.610756 7.144145 1.393232 0.123687 14.288442 1.000000 alpha[1]: 0.208511 invar[1]: 0.524362 rates[1] ac ag at cg ct gt: 8.436252 31.281187 2.571264 6.229140 43.249098 1.000000 alpha[2]: 3.239105 invar[2]: 0.016363 rates[2] ac ag at cg ct gt: 0.192198 5.425076 0.272049 0.000100 3.677150 1.000000 alpha[3]: 4.279109 invar[3]: 0.037875 rates[3] ac ag at cg ct gt: 5.597053 27.291815 2.257289 0.000100 39.047981 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -190098.096915 tree written to file /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml/RAxML_result.raxml_ml
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -190098.096915 .... 
+
+Final GAMMA-based Score of best tree -190098.096915
+
+Program execution info written to /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml/RAxML_info.raxml_ml
+Best-scoring ML tree written to: /Users/alexzhu/Desktop/Evolution_algorithm/Course_Final/results/raxml/RAxML_bestTree.raxml_ml
+
+Overall execution time: 62.393264 secs or 0.017331 hours or 0.000722 days
+

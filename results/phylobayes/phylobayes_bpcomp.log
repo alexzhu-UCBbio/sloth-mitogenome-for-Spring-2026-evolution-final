@@ -1,0 +1,10 @@
+
+results/consensus_run1.treelist : 16200 trees
+results/consensus_run2.treelist : 16200 trees
+
+maxdiff     : 0.0344444
+meandiff    : 0.000921269
+
+bipartition list in : results/bpcomp.bplist
+consensus in        : results/bpcomp.con.tre
+

@@ -1,0 +1,6 @@
+5
+Dugong_dugon_NC_003314 Loxodonta_africana_NC_000934 71.2 55.6
+Dasypus_novemcinctus_NC_001821 Bradypus_variegatus_NC_028501 71.2 58.5
+Cyclopes_didactylus_NC_028564 Bradypus_variegatus_NC_028501 65.5 31.5
+Cyclopes_didactylus_NC_028564 Tamandua_tetradactyla_NC_004032 61.1 15.97
+Priodontes_maximus_NC_028573 Tolypeutes_matacus_NC_028575 37.8 23.0

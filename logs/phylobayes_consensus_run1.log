@@ -1,0 +1,14 @@
+
+model:
+stick-breaking Dirichlet process mixture (cat)
+exchangeabilities estimated from data (gtr)
+discrete gamma distribution of rates across sites (4 categories)
+
+read data from file : input_dataset/Delsuc-CurrBiol-2019_dataset.phylip
+number of taxa  : 40
+number of sites : 15157
+number of states: 4
+
+chain name : results/phylobayes/consensus_run1
+run started
+
