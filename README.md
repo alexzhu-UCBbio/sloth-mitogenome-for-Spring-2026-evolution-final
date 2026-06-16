@@ -1,6 +1,6 @@
 # 树懒古线粒体基因组系统发生复现项目
 
-本仓库用于分子演化课程期末项目，围绕 Delsuc et al. (2019) 关于树懒古线粒体基因组的研究，整理作者公开数据并复现主要系统发生分析。项目主线基于作者在 Zenodo 公开的 curated mitogenomic alignment，而不是从原始测序 reads 重新组装古 DNA。
+本仓库用于分子演化课程期末项目，围绕 Delsuc et al. (2019) 关于树懒古线粒体基因组的研究，整理作者公开数据并复现主要系统发生分析。项目主线基于作者在 Zenodo 公开的 curated mitogenomic alignment完成复现工作。
 
 主要论文：
 
@@ -93,4 +93,4 @@
 - MCMCTree 每个 run 的大体积链文件和完整运行目录。
 - IQ-TREE / MrBayes 的 checkpoint、posterior sample 和其他中间文件。
 
-GitHub 仓库中保留的是关键的的输入数据、脚本、关键树文件、日志、摘要结果和图件。
+GitHub 仓库中保留的是关键的输入数据、脚本、关键树文件、日志、摘要结果和图件。
